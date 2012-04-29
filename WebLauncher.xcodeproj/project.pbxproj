@@ -13,6 +13,9 @@
 		D44CDF78154CBBAB001F9669 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D44CDF76154CBBAB001F9669 /* Credits.rtf */; };
 		D44CDF7B154CBBAB001F9669 /* RKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D44CDF7A154CBBAB001F9669 /* RKAppDelegate.m */; };
 		D44CDF7E154CBBAB001F9669 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D44CDF7C154CBBAB001F9669 /* MainMenu.xib */; };
+		D44CDF85154CBBDE001F9669 /* html in Resources */ = {isa = PBXBuildFile; fileRef = D44CDF84154CBBDE001F9669 /* html */; };
+		D44CDF89154CC2B1001F9669 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D44CDF88154CC2B1001F9669 /* README.md */; };
+		D44CDF8B154CC3E1001F9669 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D44CDF8A154CC3E1001F9669 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +24,17 @@
 		D44CDF6A154CBBAB001F9669 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		D44CDF6B154CBBAB001F9669 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D44CDF6C154CBBAB001F9669 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D44CDF6F154CBBAB001F9669 /* WebLauncher-Info.plist */ = {isa = PBXFileReference; path = "WebLauncher-Info.plist"; sourceTree = "<group>"; };
+		D44CDF6F154CBBAB001F9669 /* WebLauncher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebLauncher-Info.plist"; sourceTree = "<group>"; };
 		D44CDF71154CBBAB001F9669 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D44CDF73154CBBAB001F9669 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D44CDF75154CBBAB001F9669 /* WebLauncher-Prefix.pch */ = {isa = PBXFileReference; path = "WebLauncher-Prefix.pch"; sourceTree = "<group>"; };
+		D44CDF75154CBBAB001F9669 /* WebLauncher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebLauncher-Prefix.pch"; sourceTree = "<group>"; };
 		D44CDF77154CBBAB001F9669 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		D44CDF79154CBBAB001F9669 /* RKAppDelegate.h */ = {isa = PBXFileReference; path = RKAppDelegate.h; sourceTree = "<group>"; };
+		D44CDF79154CBBAB001F9669 /* RKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RKAppDelegate.h; sourceTree = "<group>"; };
 		D44CDF7A154CBBAB001F9669 /* RKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RKAppDelegate.m; sourceTree = "<group>"; };
 		D44CDF7D154CBBAB001F9669 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D44CDF84154CBBDE001F9669 /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; path = html; sourceTree = "<group>"; };
+		D44CDF88154CC2B1001F9669 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		D44CDF8A154CC3E1001F9669 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +52,8 @@
 		D44CDF58154CBBAB001F9669 = {
 			isa = PBXGroup;
 			children = (
+				D44CDF8A154CC3E1001F9669 /* LICENSE */,
+				D44CDF88154CC2B1001F9669 /* README.md */,
 				D44CDF6D154CBBAB001F9669 /* WebLauncher */,
 				D44CDF66154CBBAB001F9669 /* Frameworks */,
 				D44CDF64154CBBAB001F9669 /* Products */,
@@ -85,6 +93,7 @@
 				D44CDF79154CBBAB001F9669 /* RKAppDelegate.h */,
 				D44CDF7A154CBBAB001F9669 /* RKAppDelegate.m */,
 				D44CDF7C154CBBAB001F9669 /* MainMenu.xib */,
+				D44CDF84154CBBDE001F9669 /* html */,
 				D44CDF6E154CBBAB001F9669 /* Supporting Files */,
 			);
 			path = WebLauncher;
@@ -157,6 +166,9 @@
 				D44CDF72154CBBAB001F9669 /* InfoPlist.strings in Resources */,
 				D44CDF78154CBBAB001F9669 /* Credits.rtf in Resources */,
 				D44CDF7E154CBBAB001F9669 /* MainMenu.xib in Resources */,
+				D44CDF85154CBBDE001F9669 /* html in Resources */,
+				D44CDF89154CC2B1001F9669 /* README.md in Resources */,
+				D44CDF8B154CC3E1001F9669 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +218,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -222,7 +234,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -232,7 +244,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -242,7 +254,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -253,6 +265,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebLauncher/WebLauncher-Prefix.pch";
 				INFOPLIST_FILE = "WebLauncher/WebLauncher-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -264,6 +277,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebLauncher/WebLauncher-Prefix.pch";
 				INFOPLIST_FILE = "WebLauncher/WebLauncher-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
